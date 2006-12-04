@@ -1,4 +1,3 @@
 category: X11
-requires: cygwin libX11 libXext resourceproto
-sdesc: "Xorg XResource library (development)"
+sdesc: "Xorg XResource library (documentation)"
 ldesc: "Xorg XResource library"

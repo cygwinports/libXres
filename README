@@ -3,25 +3,25 @@ libXres
 Xorg XResource library
 
 Runtime requirements:
-  cygwin-1.5.20-1
-  libX11_6-1.0.1-1
-  libXext6-1.0.1-1
+  cygwin-1.5.22-1
+  libX11_6-1.1.1-1
+  libXext6-1.0.2-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.20-1
-  autoconf2.5-2.59-2
+  cygwin-1.5.22-1
+  autoconf2.5-2.60-1
   automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.2-1
+  binutils-20060817-1
+  cygport-0.2.6-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
-  libtool1.5-1.5.22-1
-  make-3.80-1
-  pkg-config-0.20-1
+  libtool1.5-1.5.23a-1
+  make-3.81-1
+  pkg-config-0.21-1
   sed-4.1.5-1
   resourceproto-1.0.2-1
-  xorg-util-macros-1.0.2-1
+  xorg-util-macros-1.1.2-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -32,30 +32,28 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libXres-1.0.1-X-src.tar.bz2
+  unpack libXres-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libXres-1.0.1-X.cygport all
+  cygport ./libXres-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/libXres-1.0.1-X-src.tar.bz2
-  /usr/src/libXres-1.0.1-X.tar.bz2
-  /usr/src/libXres1-1.0.1-X.tar.bz2
+  /usr/src/libXres-1.0.2-X-src.tar.bz2
+  /usr/src/libXres-1.0.2-X.tar.bz2
+  /usr/src/libXres-devel-1.0.2-X.tar.bz2
+  /usr/src/libXres1-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the main package:
+Files included in the binary packages:
 
-  /usr/include/X11/extensions/XRes.h
-  /usr/lib/libXRes.dll.a
-  /usr/lib/libXRes.la
-  /usr/lib/pkgconfig/xres.pc
-  /usr/share/doc/Cygwin/libXres-1.0.1.README
-  /usr/share/doc/libXres-1.0.1/AUTHORS
-  /usr/share/doc/libXres-1.0.1/COPYING
-  /usr/share/doc/libXres-1.0.1/ChangeLog
-  /usr/share/doc/libXres-1.0.1/INSTALL
+(libXres)
+  /usr/share/doc/Cygwin/libXres-1.0.2.README
+  /usr/share/doc/libXres-1.0.2/AUTHORS
+  /usr/share/doc/libXres-1.0.2/COPYING
+  /usr/share/doc/libXres-1.0.2/ChangeLog
+  /usr/share/doc/libXres-1.0.2/INSTALL
   /usr/share/man/man3/XRes.3.gz
   /usr/share/man/man3/XResQueryClientPixmapBytes.3.gz
   /usr/share/man/man3/XResQueryClientResources.3.gz
@@ -63,13 +61,21 @@ Files included in the main package:
   /usr/share/man/man3/XResQueryExtension.3.gz
   /usr/share/man/man3/XResQueryVersion.3.gz
 
-Files included in the runtime library package:
-
+(libXres1)
   /usr/bin/cygXRes-1.dll
+
+(libXres-devel)
+  /usr/include/X11/extensions/XRes.h
+  /usr/lib/libXRes.dll.a
+  /usr/lib/libXRes.la
+  /usr/lib/pkgconfig/xres.pc
 
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-1 -----
+X11R7.2 version bump.
 
 ----- version 1.0.1-1 -----
 X11R7.1 version bump.
