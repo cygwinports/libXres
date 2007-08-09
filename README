@@ -3,25 +3,25 @@ libXres
 Xorg XResource library
 
 Runtime requirements:
-  cygwin-1.5.22-1
-  libX11_6-1.1.1-1
-  libXext6-1.0.2-1
+  cygwin-1.5.24-2
+  libX11_6-1.1.3-1
+  libXext6-1.0.3-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.22-1
-  autoconf2.5-2.60-1
-  automake1.9-1.9.6-1
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.6-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  libtool1.5-1.5.23a-1
+  cygport-0.3.5-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
-  sed-4.1.5-1
+  sed-4.1.5-2
   resourceproto-1.0.2-1
-  xorg-util-macros-1.1.2-1
+  xorg-util-macros-1.1.5-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -32,28 +32,28 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libXres-1.0.2-X-src.tar.bz2
+  unpack libXres-1.0.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libXres-1.0.2-X.cygport all
+  cygport ./libXres-1.0.3-X.cygport all
 
 This will create:
-  /usr/src/libXres-1.0.2-X-src.tar.bz2
-  /usr/src/libXres-1.0.2-X.tar.bz2
-  /usr/src/libXres-devel-1.0.2-X.tar.bz2
-  /usr/src/libXres1-1.0.2-X.tar.bz2
+  /usr/src/libXres-1.0.3-X-src.tar.bz2
+  /usr/src/libXres-1.0.3-X.tar.bz2
+  /usr/src/libXres-devel-1.0.3-X.tar.bz2
+  /usr/src/libXres1-1.0.3-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
 (libXres)
-  /usr/share/doc/Cygwin/libXres-1.0.2.README
-  /usr/share/doc/libXres-1.0.2/AUTHORS
-  /usr/share/doc/libXres-1.0.2/COPYING
-  /usr/share/doc/libXres-1.0.2/ChangeLog
-  /usr/share/doc/libXres-1.0.2/INSTALL
+  /usr/share/doc/Cygwin/libXres-1.0.3.README
+  /usr/share/doc/libXres-1.0.3/AUTHORS
+  /usr/share/doc/libXres-1.0.3/COPYING
+  /usr/share/doc/libXres-1.0.3/ChangeLog
+  /usr/share/doc/libXres-1.0.3/INSTALL
   /usr/share/man/man3/XRes.3.gz
   /usr/share/man/man3/XResQueryClientPixmapBytes.3.gz
   /usr/share/man/man3/XResQueryClientResources.3.gz
@@ -73,6 +73,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 1.0.3-1 -----
+X11R7.3 version bump.
 
 ----- version 1.0.2-1 -----
 X11R7.2 version bump.
