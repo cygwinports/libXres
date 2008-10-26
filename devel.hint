@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libXres1 libX11-devel libXext-devel resourceproto
+requires: cygwin libXRes1 libX11-devel libXext-devel resourceproto
 external-source: libXres
-sdesc: "Xorg XResource library (development)"
-ldesc: "Xorg XResource library"
+sdesc: "X.Org XResource library (development)"
+ldesc: "X.Org XResource library"
