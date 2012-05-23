@@ -1,7 +1,6 @@
 inherit xorg
 
-PKG_NAMES="${PN} libXRes1 libXRes-devel"
-PKG_HINTS="setup runtime devel"
-libXres_CONTENTS=	# empty
+PKG_NAMES="libXRes1 libXRes-devel"
+PKG_HINTS="runtime devel"
 libXRes1_CONTENTS="usr/bin/cygXRes-1.dll usr/share/doc/"
 libXRes_devel_CONTENTS='usr/include/ usr/lib/ usr/share/man/'
