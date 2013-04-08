@@ -1,5 +1,0 @@
-category: X11
-requires: libXRes1 libX11-devel libXext-devel resourceproto
-external-source: libXres
-sdesc: "X.Org XResource library (development)"
-ldesc: "X.Org XResource library"

@@ -1,6 +1,12 @@
 inherit xorg
 
+NAME="libXres"
+VERSION=1.0.6
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X.Org XResource library"
+DESCRIPTION="X.Org XResource library"
+
 PKG_NAMES="libXRes1 libXRes-devel"
-PKG_HINTS="runtime devel"
 libXRes1_CONTENTS="usr/bin/cygXRes-1.dll usr/share/doc/"
 libXRes_devel_CONTENTS='usr/include/ usr/lib/ usr/share/man/'

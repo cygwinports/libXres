@@ -1,5 +1,0 @@
-category: X11
-requires: libX11_6 libXext6
-external-source: libXres
-sdesc: "X.Org XResource library (runtime)"
-ldesc: "X.Org XResource library"
