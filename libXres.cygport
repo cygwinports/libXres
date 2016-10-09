@@ -3,7 +3,7 @@ inherit xorg
 NAME="libXres"
 VERSION=1.0.7
 RELEASE=1
-CATEGORY="X11"
+CATEGORY="Libs"
 SUMMARY="X.Org XResource library"
 DESCRIPTION="X.Org XResource library"
 
